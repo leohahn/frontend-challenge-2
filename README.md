@@ -22,6 +22,10 @@ In the filter panel, you can filter the existing benefits in two ways:
 - Copy the existing code from this repository to your new repository.
 - In a branch separate from main, implement the design and functionality. We expect the exercise to take around ~3-4 hours to complete.
 - Create a pull request against main once it's ready, consider the same process as you normally do for sending a pull request.
-- Invite @leohahn to your repository.
+- Invite @leohahn, @marcelotokarnia, and @luiz-berto to your repository.
 - Send an e-mail/linkedin message/wpp message with the PR link.
 - After that we'll schedule a call so that we can go over everything you've done and the pull request as well.
+
+**NOTE**: There are two "bugs" in the design:
+- The filter side panel contains a "Criar" button. This is a bug, it the filter side panel should have no buttons. As soon as you change one filter, it should update the screen.
+- In the filter side panel, filtering for types should be a multi select and not a single dropdown. In practice, the component looks the same as a dropdown, however you'll need to be able to select more than one option, and show in the screen which options are selected.

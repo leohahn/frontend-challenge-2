@@ -18,7 +18,7 @@ In the filter panel, you can filter the existing benefits in two ways:
 - You should match your result against the design.
 
 **Process**
-- Create a new repository in GitHub setup a frontend project in any way you like. You can use any language/framework/library to solve this. The only thing you can't use is ready-made component frameworks that already give you the implemented component.
+- Create a new repository in GitHub setup a frontend project in any way you like. You can use any language/framework/library to solve this.
 - Copy the existing code from this repository to your new repository.
 - In a branch separate from main, implement the design and functionality. We expect the exercise to take around ~3-4 hours to complete.
 - Create a pull request against main once it's ready, consider the same process as you normally do for sending a pull request.

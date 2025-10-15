@@ -50,6 +50,6 @@ export async function createBenefit(benefit: Benefit): Promise<Benefit> {
 }
 
 // TODO: implement this endpoint
-export async function searchBenefits(): Promise<Benefit> {
+export async function searchBenefits(): Promise<Benefit[]> {
   throw new Error("not implemented")
 }
